@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  demo-api:
+    build: 
+      context: ./demo-api
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
