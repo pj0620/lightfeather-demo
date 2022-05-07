@@ -8,7 +8,6 @@ app.use(express.json());
 app.use(cors());
 
 app.use(function(req, res, next) {
-  console.log('here');
   var oneof = false;
   if(req.headers.origin) {
       res.header('Access-Control-Allow-Origin', req.headers.origin);
