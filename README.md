@@ -54,6 +54,13 @@ The backend is built with Express. There are two endpoints at http://localhost:3
 ### Request
 
 `POST /api/submit`
+{
+  "firstName": "John",
+  "firstName": "Doe",
+  "phone": "1112223333",
+  "email": "john.doe@gmail.com",
+  "supervisor": "Albert Einstein"
+}
 
 ### Response
 
